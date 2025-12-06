@@ -35,6 +35,36 @@ footer {
     border-top: 1px solid rgba(255, 255, 255, 0.2);
     width: 100%;
 }
+footer .footer-links {
+    margin-top: 10px;
+    line-height: 1.8;
+    color: rgba(255,255,255,0.9);
+    display: inline-flex;
+    text-align: center;
+}
+footer .github-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    color: #cccccc;
+    font-size: 13px;
+    text-decoration: none;
+    opacity: 0.9;
+}
+
+footer .github-link:hover {
+    opacity: 1;
+    text-decoration: underline;
+}
+
+footer .image-github {
+    width: 18px;
+    height: auto;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 6px;
+}
+
 /* body {
     background-color: white;
 }
