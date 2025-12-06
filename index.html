@@ -3,24 +3,52 @@
     <head>
         <meta charset="UTF-8">
         <title>ロードマップ</title>
-        <meta name="description" content="勉強計画">
-        <link rel="stylesheet" href="style.css">
+        <meta name="description" content="プログラミング未経験者がフロントエンドエンジニアになるために必要な情報を提供するWEBページ">
+        <link rel="stylesheet" href="/assets/css/style.css">
+        <script src="/assets/javascript/include.js"></script>
     </head>
 
     <body>
-        <h1>勉強する言語(必須)</h1>
-        <ul>
-            <li>HTML</li>
-            <li>CSS</li>
-            <lI>JavaScript</lI>
-        </ul>
-        <h1>勉強する言語(覚えたら転職に有利)</h1>
-        <ul>
-            <li>PHP</li>
-            <li>Python</li>
-            <li>Ruby</li>
-            <li>Java</li>
-            <li>TypeScript</li>
-        </ul>
+        <!-- 共通ヘッダー -->
+        <div data-include="/components/header.html"></div>
+        <main>
+            <section>
+                <h2>STEPごとのロードマップ(ざっくり全体像)</h2>
+                <ul>
+                    <li>STEP1：まず覚えるもの(必須)</li>
+                    <li>STEP2：転職で差がつくもの(+α)</li>
+                    <lI>STEP3：さらに余裕があれば(興味出てきたら)</lI>
+                </ul>
+            </section>
+            <section>
+                <h2>必須リスト</h2>
+                <ul>
+                    <li>HTML & CSS</li>
+                    <li>JavaScript(基礎)</li>
+                    <li>Git & GitHub</li>
+                    <li>ブラウザ開発者ツール(DevTools)</li>
+                </ul>
+            </section>
+            <section>
+                <h2>やると有利(STEP2)リスト</h2>
+                <ul>
+                    <li>JavaScript(応用/非同期)</li>
+                    <li>TypeScript</li>
+                    <li>React</li>
+                    <li>Node.jsの基礎(npmや簡単なAPIサーバー)</li>
+                    <li>Web API/REST の考え方</li>
+                    <li>簡単なデザイン・UI/UXの基礎</li>
+                </ul>
+            </section>
+            <section>
+                <h2>余裕があれば(STEP3)</h2>
+                <ul>
+                    <li>テスト(Jestなど)</li>
+                    <li>パフォーマンス・アクセシビリティ</li>
+                    <li>Dockerなど周辺ツール</li>
+                </ul>
+            </section>
+        </main>
+        <div data-include="/components/footer.html"></div>
     </body>
 </html>
