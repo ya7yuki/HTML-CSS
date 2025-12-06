@@ -24,6 +24,17 @@ header {
     font-size: 22px;
     line-height: 33px;
 }
+
+footer {
+    background-color: #0056d6;
+    color: rgba(255, 255, 255, 0.9);
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    font-size: 12px;
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    width: 100%;
+}
 /* body {
     background-color: white;
 }
