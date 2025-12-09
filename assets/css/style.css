@@ -100,11 +100,42 @@ footer .image-github {
     background-color: rgba(0, 0, 0, 0.65);
 }
 
-/* body {
-    background-color: white;
+.top-menu {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 24px;
+    max-width: 900px;
+    margin: 60px auto;
+    padding: 0 20px;
 }
 
-h1 {
-    color: cyan;
-    font-size: 100px;
-} */
+.menu-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    height: 160px;
+    border: 1px solid #ccc;
+    text-decoration: none;
+    color: #333;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.menu-card-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.menu-card-summary {
+    font-size: 14px;
+    color: #666;
+}
+
+.menu-card-image:hover {
+    -webkit-transform: translateY(-5px);
+    -ms-transform: translateY(-5px);
+    transform: translateY(-5px);
+}

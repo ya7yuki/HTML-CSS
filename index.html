@@ -2,8 +2,8 @@
 <html lang="ja">
     <head>
         <meta charset="UTF-8">
-        <title>ロードマップ</title>
-        <meta name="description" content="プログラミング未経験者がフロントエンドエンジニアになるために必要な情報を提供するWEBページ">
+        <title>ヤシチの技術ノートと趣味ログ</title>
+        <meta name="description" content="IT/自作PC/ゲーム・映画の記録置き場">
         <link rel="stylesheet" href="./assets/css/style.css">
         <script src="./assets/javascript/include.js"></script>
         <script src="./assets/javascript/backToTop.js"></script>
@@ -13,42 +13,36 @@
         <!-- 共通ヘッダー -->
         <div data-include="./components/header.html"></div>
         <main>
-            <section>
-                <h2>STEPごとのロードマップ(ざっくり全体像)</h2>
-                <ul>
-                    <li>STEP1：まず覚えるもの(必須)</li>
-                    <li>STEP2：転職で差がつくもの(+α)</li>
-                    <lI>STEP3：さらに余裕があれば(興味出てきたら)</lI>
-                </ul>
-            </section>
-            <section>
-                <h2>必須リスト</h2>
-                <ul>
-                    <li>HTML & CSS</li>
-                    <li>JavaScript(基礎)</li>
-                    <li>Git & GitHub</li>
-                    <li>ブラウザ開発者ツール(DevTools)</li>
-                </ul>
-            </section>
-            <section>
-                <h2>やると有利(STEP2)リスト</h2>
-                <ul>
-                    <li>JavaScript(応用/非同期)</li>
-                    <li>TypeScript</li>
-                    <li>React</li>
-                    <li>Node.jsの基礎(npmや簡単なAPIサーバー)</li>
-                    <li>Web API/REST の考え方</li>
-                    <li>簡単なデザイン・UI/UXの基礎</li>
-                </ul>
-            </section>
-            <section>
-                <h2>余裕があれば(STEP3)</h2>
-                <ul>
-                    <li>テスト(Jestなど)</li>
-                    <li>パフォーマンス・アクセシビリティ</li>
-                    <li>Dockerなど周辺ツール</li>
-                </ul>
-            </section>
+            <div class="top-menu">
+                <a class="menu-card" href="./pages/frontend/index.html">
+                    <img class="menu-card-image" src="./image/icons8-front-end-50.png" alt="フロントエンド">
+                    <div class="menu-card-title">
+                        フロントエンド
+                    </div>
+                    <p class="menu-card-summary">HTML/CSS/Java Script学習メモ</p>
+                </a>
+                <a class="menu-card" href="./pages/dotnet/index.html">
+                    <img class="menu-card-image" src="./image/icons8-.net-framework-48.png" alt=".NET">
+                    <div class="menu-card-title">
+                        .NET
+                    </div>
+                    <p class="menu-card-summary">C#/VB.NETの学習メモ</p>
+                </a>
+                <a class="menu-card" href="./pages/pc/index.html">
+                    <img class="menu-card-image" src="./image/icons8-computer-48.png" alt="自作PC">
+                    <div class="menu-card-title">
+                        自作PC
+                    </div>
+                    <p class="menu-card-summary">構成・パーツ選び・トラブル対応</p>
+                </a>
+                <a class="menu-card" href="./pages/hoby/index.html">
+                    <img class="menu-card-image" src="./image/icons8-video-game-48.png" alt="趣味">
+                    <div class="menu-card-title">
+                        趣味
+                    </div>
+                    <p class="menu-card-summary">ゲーム・映画・オーディオなど</p>
+                </a>
+            </div>
         </main>
         <!-- 共通フッター -->
         <div data-include="./components/footer.html"></div>
