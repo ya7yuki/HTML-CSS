@@ -10,10 +10,57 @@ header {
     text-align: center;
     text-shadow: 0 2px 3px rgba(0, 0, 0, 0.15);
     margin: auto;
-    padding-top: 70px;
+    padding-top: 0px;
     padding-bottom: 70px;
     margin-bottom: 40px;
 }
+
+header .navi-header-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+    border: 2px solid #000;
+}
+
+header .navi-header-title {
+    font-size: large;
+}
+
+header .navi-header-title-link {
+    display: inline-block;
+    text-decoration: none;
+}
+
+header .navi-header-menu-item-link {
+    display: inline-block;
+    text-decoration: none;
+}
+
+header .navi-header-title:link, header .navi-header-menu-item-link:link {
+    color: #666;
+}
+
+header .navi-header-title:hover, header .navi-header-menu-item-link:hover {
+    -webkit-transform: translateY(-5px);
+    -ms-transform: translateY(-5px);
+    transform: translateY(-5px);
+    transition: 0.2s;
+}
+
+header .navi-header-title-link:visited, header .navi-header-menu-item-link:visited {
+    color: #666;
+}
+
+header .navi-menu {
+    display: flex;
+    padding: 10px;
+}
+
+header .navi-menu-item {
+    margin-left: 20px;
+}
+
 .header-section {
     max-width: 1000px;
     margin-left: auto;
