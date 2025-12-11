@@ -191,8 +191,9 @@ footer .image-github {
     color: #666;
 }
 
-.menu-card-image:hover {
+main .menu-card-image:hover {
     -webkit-transform: translateY(-5px);
     -ms-transform: translateY(-5px);
     transform: translateY(-5px);
+    transition: 0.2s;
 }
